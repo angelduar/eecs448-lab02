@@ -8,7 +8,8 @@
 template <typename T>
 LinkedList<T>::LinkedList() : m_front(nullptr), m_size(0)
 {
-
+	m_front = nullptr;
+	m_length = 0;
 }
 
 template <typename T>
